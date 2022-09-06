@@ -37,10 +37,10 @@ const hero = () => {
                     data-aos-easing="ease"
                     data-aos-once="true"
 	            	>
-	            	<p>I am a website designer from Lousiana, with a strong focus in UI/UX design. 
+	            	<p>I am a website designer and a smart contract deployer.
 	                I love to get new experiences and always learn from my surroundings. 
-	                I've done more than 285 projects. You can check it through portfolio section on
-	                this website. I looking forward to any opportunities and challenges. 
+	                I've done more than 100 projects.
+	                I looking forward to any opportunities and challenges. 
                      </p>
 	            </div>
 			</div>
@@ -133,7 +133,7 @@ const hero = () => {
 				          );
 				        }}
 				      </AnimatedProgressProvider>
-				      <h4 className="mt-2">PHP</h4>
+				      <h4 className="mt-2">SOLIDITY</h4>
                 </div>
                 <div className="col-lg-3 p-5 text-center"
                 	data-aos="fade"

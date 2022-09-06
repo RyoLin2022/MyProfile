@@ -24,7 +24,7 @@ const Mblockquote = () => {
                             <div className="spacer-double"></div>
                             <blockquote className="q-big">
                                 <i className="d-big icon_quotations"></i>
-                                Do more than is required. What is the distance between someone who achieves their goals consistently and those who spend their lives and careers merely following? The extra mile.
+                                When I thought I couldn’t go on, I forced myself to keep going. My success is based on persistence, not luck.
                                 <span className="d-quote-by">Ryo Lin</span>
                             </blockquote>
                             <div className="spacer-double"></div>
