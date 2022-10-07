@@ -105,10 +105,10 @@ const contact = () => {
                                 data-aos-easing="ease"
                                     >
                                     <div className="wm-1"></div>
-                                    <h6>Call Me</h6>
-                                    <p>+1 700 333 92 96</p>
+                                    <h6>Contact Me</h6>
+                                    <p>Telegram : <a href="https://t.me/RyoLin">RyoLin</a></p>
                                 </div>
-                                <div className="col-md-4"
+                                {/* <div className="col-md-4"
                                     data-aos="fade-up"
                                 data-aos-once="true"
                                 data-aos-delay="400"
@@ -118,7 +118,7 @@ const contact = () => {
                                     <div className="wm-1"></div>
                                     <h6>Address</h6>
                                     <p>Collins Street West, Louisiana, Bayerfurt, USA</p>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

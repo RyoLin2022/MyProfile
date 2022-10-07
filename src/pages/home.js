@@ -15,7 +15,7 @@ import Preloader from "../layout/Preloader";
 import ScrollToTopBtn from '../layout/ScrollToTop';
 import { createGlobalStyle } from 'styled-components';
 
-const image1 ="./img/background/1.jpg";
+const image1 = "./img/background/1.jpg";
 
 const GlobalStyles = createGlobalStyle`
   .navbar-brand .imginit{
@@ -29,72 +29,77 @@ const GlobalStyles = createGlobalStyle`
 function home() {
   return (
     <>
-    <GlobalStyles/>
-    <Preloader/>
-    <div className="home">
+      <GlobalStyles />
+      <Preloader />
+      <div className="home">
 
-      <header id="header-wrap">
-        <Navbar />
-      </header>
+        <header id="header-wrap">
+          <Navbar />
+        </header>
 
-      {/* HERO */}
-      <section id="hero-area" className="bg-bottom py-0">
-        <Parallax bgImage={image1} strength={300}>
-        <Hero/>
-        <Link smooth spy to="about">
-          <span className="mouse transition" id="fly">
-              <span className="scroll"></span>
-          </span>
-        </Link>
-        </Parallax>
-      </section>
+        {/* HERO */}
+        <section id="hero-area" className="bg-bottom py-0">
+          <Parallax bgImage={image1} strength={300}>
+            <Hero />
+            <Link smooth spy to="about">
+              <span className="mouse transition" id="fly">
+                <span className="scroll"></span>
+              </span>
+            </Link>
+          </Parallax>
+        </section>
 
-      {/* ABOUT */}
-      <section id="about" className="pb-0">
-        <About/>
-        <Blockquote/>
-      </section>
+        {/* ABOUT */}
+        <section id="about" className="pb-0">
+          <About />
+          <Blockquote />
+        </section>
 
-      {/* What I DO */}
-      <section id="whatido">
-        <Whatido/>
-      </section>
+        {/* What I DO */}
+        <section id="whatido">
+          <Whatido />
+        </section>
 
-      {/* Gallery */}
-      <section id="gallery">
-        <Gallery/>
-      </section>
+        {/* Gallery */}
+        <section id="gallery">
+          <Gallery />
+        </section>
 
-      {/* Gallery */}
-      <section id="resume" className="pb-0">
-        <Resume/>
-        <Counter/>
-      </section>
+        {/* Gallery */}
+        <section id="resume" className="pb-0">
+          {/* <Resume /> */}
+          <Counter />
+        </section>
 
-      {/* Gallery */}
-      <section id="blog" className="pb-0">
-        <Blog/>
-      </section>
+        {/* Gallery */}
+        {/* <section id="blog" className="pb-0">
+          <Blog />
+        </section> */}
 
-      {/* contact */}
-      <section id="contact" className="pb-0">
-        <Contact/>
-        <Footer/>
-      </section>
+        {/* contact */}
+        <section id="contact" className="pb-0">
+          <Contact />
+          <Footer />
+        </section>
 
-      
-
-
-      <div className="float-text">
+        <div className="float-text">
           <div className="de_social-icons">
-              <span className="buton"><i className="fa fa-facebook fa-lg"></i></span>
-              <span className="buton"><i className="fa fa-twitter fa-lg"></i></span>
-              <span className="buton"><i className="fa fa-instagram fa-lg"></i></span>
+            {/* <span className="buton"><i className="fa fa-facebook fa-lg"></i></span> */}
+            <span className="buton">
+              <a href="https://twitter.com/RyoLinEth">
+                <i className="fa fa-twitter fa-lg" />
+              </a>
+            </span>
+            <span className="buton">
+              <a href="https://t.me/RyoLin">
+                <i className="fa fa-telegram fa-lg" />
+              </a>
+            </span>
           </div>
           <span>Follow Me</span>
+        </div>
       </div>
-    </div>
-    <ScrollToTopBtn />
+      <ScrollToTopBtn />
     </>
   );
 }

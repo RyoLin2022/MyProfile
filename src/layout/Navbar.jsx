@@ -61,7 +61,7 @@ const Navbar= function() {
                   Portofolio
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link transition" activeClass="active" spy to="resume">
                   My resume
                 </Link>
@@ -70,7 +70,7 @@ const Navbar= function() {
                 <Link className="nav-link transition" activeClass="active" spy to="blog">
                   Blog
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link transition" activeClass="active" spy to="contact">
                   Contact Me
@@ -104,7 +104,7 @@ const Navbar= function() {
                   Portofolio
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link transition" smooth activeClass="active" spy to="resume">
                   My resume
                 </Link>
@@ -113,7 +113,7 @@ const Navbar= function() {
                 <Link className="nav-link transition"smooth activeClass="active" spy to="blog">
                   Blog
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link transition" smooth activeClass="active" spy to="contact">
                   Contact Me

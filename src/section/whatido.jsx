@@ -31,7 +31,6 @@ const whatido = () => {
                             <i className="icon_genius id-color-2"></i>
                             <div className="text">
                                 <h3>Branding</h3>
-                                Ex velit cupidatat magna voluptate deserunt quis et dolor adipisicing elit culpa ad exercitation proident irure deserunt irure.
                             </div>
                         </div>
                     </div>
@@ -48,7 +47,6 @@ const whatido = () => {
                             <i className="icon_tools id-color-2"></i>
                             <div className="text">
                                 <h3>Development</h3>
-                                Ex velit cupidatat magna voluptate deserunt quis et dolor adipisicing elit culpa ad exercitation proident irure deserunt irure.
                             </div>
                         </div>
                     </div>
@@ -65,7 +63,6 @@ const whatido = () => {
                             <i className="icon_camera_alt id-color-2"></i>
                             <div className="text">
                                 <h3>Photography</h3>
-                                Ex velit cupidatat magna voluptate deserunt quis et dolor adipisicing elit culpa ad exercitation proident irure deserunt irure.
                             </div>
                         </div>
                     </div>
